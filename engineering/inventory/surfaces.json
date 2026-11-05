@@ -3,10 +3,10 @@
  "generator": "scripts/nemo/inventory.cjs",
  "generatorVersion": 4,
  "source": {
-  "head": "e8b4b3325dff6427b2c90bcf9ff8cefbeb53f2b2",
-  "describe": "e8b4b332"
+  "head": "382eb0d9a2348d28a3b734df19562e6882cf3ea4",
+  "describe": "v0.7.0-alpha.4-555-g382eb0d9-dirty"
  },
- "inputsDigest": "fede80935425cb1d26e135bf8861712f2ac82bf0de28c8ea65f3dd444451450b",
+ "inputsDigest": "00100176c99c6d6468768a3615698be474f5fad2d44a0dc60c7bfe3b511ab409",
  "states": [
   "inventoried",
   "characterized",
@@ -1080,7 +1080,7 @@
     "container": "camera-sec",
     "modal": false,
     "hiddenAtLoad": true,
-    "functionsVisited": 40,
+    "functionsVisited": 42,
     "via": "variable editEase",
     "references": [
      "src/js/camera.js:604 updateCameraPanel()"
@@ -1696,7 +1696,7 @@
     "container": "media-convert-row",
     "modal": false,
     "hiddenAtLoad": true,
-    "functionsVisited": 90,
+    "functionsVisited": 89,
     "via": "variable convertBtn",
     "references": [
      "src/js/linked-media.js:660 onConvertMediaClick()",
@@ -1744,7 +1744,7 @@
     "container": "tl-toolbar",
     "modal": false,
     "hiddenAtLoad": false,
-    "functionsVisited": 104,
+    "functionsVisited": 103,
     "via": "variable cyc",
     "references": []
    },
@@ -1875,7 +1875,7 @@
     "container": "duplicator-sec",
     "modal": false,
     "hiddenAtLoad": true,
-    "functionsVisited": 159,
+    "functionsVisited": 160,
     "via": "chain",
     "references": []
    },
@@ -2141,7 +2141,7 @@
     "container": "legacy-project-actions",
     "modal": false,
     "hiddenAtLoad": true,
-    "functionsVisited": 13,
+    "functionsVisited": 14,
     "via": "chain",
     "references": [
      "src/js/timeline.js:9144 action()"
@@ -2677,7 +2677,7 @@
     "container": "legacy-project-actions",
     "modal": false,
     "hiddenAtLoad": true,
-    "functionsVisited": 217,
+    "functionsVisited": 218,
     "via": "chain",
     "references": [
      "src/js/images.js:706",
@@ -2757,7 +2757,7 @@
     "container": "legacy-project-actions",
     "modal": false,
     "hiddenAtLoad": true,
-    "functionsVisited": 32,
+    "functionsVisited": 33,
     "via": "helper el()",
     "references": [
      "src/js/timeline.js:9166 action()"
@@ -2979,7 +2979,7 @@
     "container": "tl-toolbar",
     "modal": false,
     "hiddenAtLoad": false,
-    "functionsVisited": 138,
+    "functionsVisited": 139,
     "via": "variable b",
     "references": [
      "src/js/motion.js:13260 setAppMode()",
@@ -3021,7 +3021,7 @@
     "container": "media-statusbar",
     "modal": false,
     "hiddenAtLoad": false,
-    "functionsVisited": 25,
+    "functionsVisited": 26,
     "via": "variable bClean",
     "references": [
      "src/js/media-library.js:691 render()"
@@ -3195,7 +3195,7 @@
     "container": "media-mode-row",
     "modal": false,
     "hiddenAtLoad": true,
-    "functionsVisited": 18,
+    "functionsVisited": 19,
     "via": "variable bL",
     "references": [
      "src/js/linked-media.js:687 setMediaMode()",
@@ -4670,7 +4670,7 @@
     "container": "legacy-project-actions",
     "modal": false,
     "hiddenAtLoad": true,
-    "functionsVisited": 102,
+    "functionsVisited": 101,
     "via": "chain",
     "references": []
    },
@@ -4712,7 +4712,7 @@
     "container": "legacy-project-actions",
     "modal": false,
     "hiddenAtLoad": true,
-    "functionsVisited": 104,
+    "functionsVisited": 103,
     "via": "chain",
     "references": []
    },
@@ -4753,7 +4753,7 @@
     "container": "legacy-project-actions",
     "modal": false,
     "hiddenAtLoad": true,
-    "functionsVisited": 138,
+    "functionsVisited": 139,
     "via": "variable btn",
     "references": [
      "src/js/timeline.js:9131 action()",
@@ -4971,7 +4971,7 @@
     "container": "text-split-row",
     "modal": false,
     "hiddenAtLoad": true,
-    "functionsVisited": 102,
+    "functionsVisited": 101,
     "via": "chain",
     "references": []
    },
@@ -5309,7 +5309,7 @@
     "container": "tw-reassign-row",
     "modal": false,
     "hiddenAtLoad": false,
-    "functionsVisited": 45,
+    "functionsVisited": 44,
     "via": "variable btn",
     "references": []
    },
@@ -7402,7 +7402,7 @@
     "container": "export-modal",
     "modal": true,
     "hiddenAtLoad": true,
-    "functionsVisited": 79,
+    "functionsVisited": 78,
     "via": "variable runBtn",
     "references": []
    },
@@ -7779,7 +7779,7 @@
     "container": "settings-modal",
     "modal": true,
     "hiddenAtLoad": true,
-    "functionsVisited": 9,
+    "functionsVisited": 10,
     "via": "variable tokenSave",
     "references": []
    },
@@ -7856,7 +7856,7 @@
     "container": "legacy-project-actions",
     "modal": false,
     "hiddenAtLoad": true,
-    "functionsVisited": 73,
+    "functionsVisited": 72,
     "via": "chain",
     "references": [
      "src/js/project.js:211 openDialog()"
@@ -8228,7 +8228,7 @@
     "container": "settings-modal",
     "modal": true,
     "hiddenAtLoad": true,
-    "functionsVisited": 12,
+    "functionsVisited": 13,
     "via": "variable saveBtn",
     "references": []
    },
@@ -8264,7 +8264,7 @@
     "container": "app-topbar",
     "modal": false,
     "hiddenAtLoad": false,
-    "functionsVisited": 23,
+    "functionsVisited": 24,
     "via": "variable btn",
     "references": [
      "src/js/history-panel.js:125 toggleHistoryPopover()"
@@ -10519,7 +10519,7 @@
     "container": "fill-sec",
     "modal": false,
     "hiddenAtLoad": false,
-    "functionsVisited": 16,
+    "functionsVisited": 17,
     "via": "variable btn",
     "references": [
      "src/js/timeline.js:8915 syncFillGradientButton()"
@@ -14056,7 +14056,7 @@
     "container": "settings-modal",
     "modal": true,
     "hiddenAtLoad": true,
-    "functionsVisited": 15,
+    "functionsVisited": 16,
     "via": "variable copyBtn",
     "references": []
    },
@@ -15433,7 +15433,7 @@
     "container": "settings-modal",
     "modal": true,
     "hiddenAtLoad": true,
-    "functionsVisited": 69,
+    "functionsVisited": 70,
     "via": "variable resetBtn",
     "references": []
    },
@@ -16330,7 +16330,7 @@
     "container": "text-popover",
     "modal": false,
     "hiddenAtLoad": true,
-    "functionsVisited": 109,
+    "functionsVisited": 108,
     "via": "chain",
     "references": [
      "src/js/timeline.js:7974 resetTextPopoverFields()",
@@ -16890,7 +16890,7 @@
     "container": "tp-font-add-row",
     "modal": false,
     "hiddenAtLoad": true,
-    "functionsVisited": 114,
+    "functionsVisited": 113,
     "via": "variable fontAddConfirm",
     "references": []
    },
@@ -18877,7 +18877,7 @@
     "container": "settings-tabs",
     "modal": true,
     "hiddenAtLoad": true,
-    "functionsVisited": 6,
+    "functionsVisited": 7,
     "via": "callback tab",
     "references": []
    },
@@ -18913,7 +18913,7 @@
     "container": "settings-tabs",
     "modal": true,
     "hiddenAtLoad": true,
-    "functionsVisited": 6,
+    "functionsVisited": 7,
     "via": "callback tab",
     "references": []
    },
@@ -18949,7 +18949,7 @@
     "container": "settings-tabs",
     "modal": true,
     "hiddenAtLoad": true,
-    "functionsVisited": 6,
+    "functionsVisited": 7,
     "via": "callback tab",
     "references": []
    },
@@ -18985,7 +18985,7 @@
     "container": "settings-tabs",
     "modal": true,
     "hiddenAtLoad": true,
-    "functionsVisited": 6,
+    "functionsVisited": 7,
     "via": "callback tab",
     "references": []
    },
@@ -19021,7 +19021,7 @@
     "container": "settings-tabs",
     "modal": true,
     "hiddenAtLoad": true,
-    "functionsVisited": 6,
+    "functionsVisited": 7,
     "via": "callback tab",
     "references": []
    },
@@ -19057,7 +19057,7 @@
     "container": "settings-tabs",
     "modal": true,
     "hiddenAtLoad": true,
-    "functionsVisited": 6,
+    "functionsVisited": 7,
     "via": "callback tab",
     "references": []
    },
@@ -19093,7 +19093,7 @@
     "container": "settings-tabs",
     "modal": true,
     "hiddenAtLoad": true,
-    "functionsVisited": 6,
+    "functionsVisited": 7,
     "via": "callback tab",
     "references": []
    },
@@ -19129,7 +19129,7 @@
     "container": "settings-tabs",
     "modal": true,
     "hiddenAtLoad": true,
-    "functionsVisited": 6,
+    "functionsVisited": 7,
     "via": "callback tab",
     "references": []
    },
@@ -23187,7 +23187,7 @@
    "source": "src/js/layer-inout.js:1564",
    "meta": {
     "i18n": null,
-    "functionsVisited": 341
+    "functionsVisited": 342
    },
    "fixtures": [
     "static-props",
@@ -24834,7 +24834,7 @@
    "source": "src/js/motion.js:11072",
    "meta": {
     "i18n": "ctxInvertSelection",
-    "functionsVisited": 101
+    "functionsVisited": 102
    },
    "fixtures": [
     "static-props",
@@ -24876,7 +24876,7 @@
    "source": "src/js/motion.js:11082",
    "meta": {
     "i18n": "ctxParentInTimeLinkTimeEllipsis",
-    "functionsVisited": 341
+    "functionsVisited": 342
    },
    "fixtures": [
     "static-props",
@@ -25547,7 +25547,7 @@
    "source": "src/js/motion.js:7463",
    "meta": {
     "i18n": "ctxParentInTimeLinkTimeEllipsis",
-    "functionsVisited": 341
+    "functionsVisited": 342
    },
    "fixtures": [
     "static-props",
@@ -27312,7 +27312,7 @@
    "source": "src/js/palette-panel.js:186",
    "meta": {
     "i18n": null,
-    "functionsVisited": 20
+    "functionsVisited": 21
    },
    "fixtures": [
     "static-props",
@@ -28293,7 +28293,7 @@
    "source": "src/js/select-bridge.js:3278",
    "meta": {
     "i18n": null,
-    "functionsVisited": 31
+    "functionsVisited": 30
    },
    "fixtures": [
     "static-props",
@@ -31357,7 +31357,7 @@
    "source": "src/js/timeline.js:6783",
    "meta": {
     "i18n": "ctxRemoveFromFolder",
-    "functionsVisited": 338
+    "functionsVisited": 339
    },
    "fixtures": [
     "keyed-props",
@@ -31582,7 +31582,7 @@
    "source": "src/js/timeline.js:6791",
    "meta": {
     "i18n": "ctxUnlinkFromLFSGroup",
-    "functionsVisited": 338
+    "functionsVisited": 339
    },
    "fixtures": [
     "keyed-props",
@@ -31887,7 +31887,7 @@
    "source": "src/js/timeline.js:6801",
    "meta": {
     "i18n": "ctxMenuAppearance",
-    "functionsVisited": 164
+    "functionsVisited": 165
    },
    "fixtures": [
     "keyed-props",
@@ -31925,7 +31925,7 @@
    "source": "src/js/timeline.js:6815",
    "meta": {
     "i18n": "ctxLayerBlend",
-    "functionsVisited": 163
+    "functionsVisited": 164
    },
    "fixtures": [
     "keyed-props",
@@ -31964,7 +31964,7 @@
    "source": "src/js/timeline.js:6828",
    "meta": {
     "i18n": "ctxMatteSource",
-    "functionsVisited": 338
+    "functionsVisited": 339
    },
    "fixtures": [
     "keyed-props",
@@ -32112,7 +32112,7 @@
    "nextGate": "R14: expose through the MCP adapter with the same handler",
    "source": "src/js/nemo-script.js:433",
    "meta": {
-    "functionsVisited": 310
+    "functionsVisited": 311
    },
    "fixtures": [
     "media",
@@ -32147,7 +32147,7 @@
    "nextGate": "R14: expose through the MCP adapter with the same handler",
    "source": "src/js/nemo-script.js:442",
    "meta": {
-    "functionsVisited": 339
+    "functionsVisited": 340
    },
    "fixtures": [
     "media",
@@ -32584,7 +32584,7 @@
    "nextGate": "R14: expose through the MCP adapter with the same handler",
    "source": "src/js/nemo-script.js:468",
    "meta": {
-    "functionsVisited": 321
+    "functionsVisited": 322
    },
    "fixtures": [
     "media",
@@ -32800,7 +32800,7 @@
    "nextGate": "R14: expose through the MCP adapter with the same handler",
    "source": "src/js/nemo-script.js:286",
    "meta": {
-    "functionsVisited": 311
+    "functionsVisited": 312
    },
    "fixtures": [
     "media",
@@ -33208,7 +33208,7 @@
    "nextGate": "R14: expose through the MCP adapter with the same handler",
    "source": "src/js/nemo-script.js:60",
    "meta": {
-    "functionsVisited": 311
+    "functionsVisited": 312
    },
    "fixtures": [
     "media",
@@ -33336,7 +33336,7 @@
    "nextGate": "R14: expose through the MCP adapter with the same handler",
    "source": "src/js/nemo-script.js:284",
    "meta": {
-    "functionsVisited": 134
+    "functionsVisited": 135
    },
    "fixtures": [
     "media",
@@ -33371,7 +33371,7 @@
    "nextGate": "R14: expose through the MCP adapter with the same handler",
    "source": "src/js/nemo-script.js:52",
    "meta": {
-    "functionsVisited": 311
+    "functionsVisited": 312
    },
    "fixtures": [
     "media",
@@ -33595,7 +33595,7 @@
    "nextGate": "R14: expose through the MCP adapter with the same handler",
    "source": "src/js/nemo-script.js:283",
    "meta": {
-    "functionsVisited": 124
+    "functionsVisited": 125
    },
    "fixtures": [
     "media",
@@ -33819,7 +33819,7 @@
    "nextGate": "R14: expose through the MCP adapter with the same handler",
    "source": "src/js/nemo-script.js:56",
    "meta": {
-    "functionsVisited": 311
+    "functionsVisited": 312
    },
    "fixtures": [
     "media",
@@ -34065,7 +34065,7 @@
    "nextGate": "R14: expose through the MCP adapter with the same handler",
    "source": "src/js/nemo-script.js:603",
    "meta": {
-    "functionsVisited": 310
+    "functionsVisited": 311
    },
    "fixtures": [
     "media",
@@ -34128,7 +34128,7 @@
    "nextGate": "R14: expose through the MCP adapter with the same handler",
    "source": "src/js/nemo-script.js:590",
    "meta": {
-    "functionsVisited": 382
+    "functionsVisited": 383
    },
    "fixtures": [
     "media",

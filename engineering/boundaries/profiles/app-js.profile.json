@@ -1873,6 +1873,18 @@
       ]
     },
     {
+      "id": "app.export.riv.domain",
+      "layer": "domain",
+      "dir": "src/js/domain/export",
+      "files": [
+        "riv-format.js"
+      ],
+      "sizeProfile": "Domain kernel",
+      "publicApi": [
+        "riv-format.js"
+      ]
+    },
+    {
       "id": "app.expression.random.domain",
       "layer": "domain",
       "dir": "src/js/domain/animation",

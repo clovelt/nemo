@@ -20,10 +20,10 @@
   "provenance": {
     "repository": "https://github.com/mysteropodes/nemo",
     "candidateCommit": "e8b4b3325dff6427b2c90bcf9ff8cefbeb53f2b2",
-    "sourceRootTree": "c66af1aa8ddedf847ee7d6b2820858ef3e370ef7",
+    "sourceRootTree": "fb4370707f7cc27684d3d301b49a551e7228f4d8",
     "applicationTree": {
       "path": "src/js",
-      "gitTree": "937a0cb307e2abbcc06c2f591dbbd0104775460c",
+      "gitTree": "b90837e8168c80bb8df1151bc98b464d7a1813c3",
       "lastChangedCommit": "e8b4b3325dff6427b2c90bcf9ff8cefbeb53f2b2"
     },
     "bootstrap": {
@@ -35,13 +35,13 @@
     "inventoryDigest": {
       "algorithm": "sha256",
       "serialization": "Ascending POSIX path order; UTF-8 path + NUL + Git blob SHA-1 + LF for each selected path, including final LF; hash the concatenated bytes.",
-      "value": "4fc625ea1005ef7e54bffcea3728adeab572306b41bc1c1fc2905bf0feb01c58"
+      "value": "09bd432e29beb4b9db698888b3c3d82aec3b35c2f4c0774eea7fb252721ee4d4"
     },
     "profiles": [
       {
         "path": "engineering/boundaries/profiles/app-js.profile.json",
-        "gitBlob": "830f6297f648043f40dc2987609b54ba83778b00",
-        "sha256": "7bb0391c68fc3f874354940ccf46dbe316d290c7b115f6885d99e5bde7bf87ae",
+        "gitBlob": "7cdb164087e7f0a0614ee9471e2133921f42b3e8",
+        "sha256": "8cd97ea13ab7390ff5afee8af292a2e4a9e50f63d7915dfe2eaf28ec34b7805e",
         "moduleCount": 168,
         "basedOnCommit": "3616328d4abee136333a20b8e3ff5d4f470cf4af"
       },
@@ -804,6 +804,19 @@
           "path": "src/index.html",
           "line": 2316,
           "scriptOrdinal": 14
+        }
+      ]
+    },
+    {
+      "path": "src/js/domain/export/riv-format.js",
+      "moduleId": "app.export.riv.domain",
+      "executionClass": "classic-without-load-site",
+      "loadSites": [],
+      "sourceEvidence": [
+        {
+          "path": "src/js/domain/export/riv-format.js",
+          "line": 1,
+          "role": "pure .riv binary writer (domain/export); consumed by its node:test suite; no bootstrap load or production exporter wiring yet"
         }
       ]
     },
