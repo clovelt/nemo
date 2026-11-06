@@ -19,29 +19,29 @@
   },
   "provenance": {
     "repository": "https://github.com/mysteropodes/nemo",
-    "candidateCommit": "e8b4b3325dff6427b2c90bcf9ff8cefbeb53f2b2",
-    "sourceRootTree": "c66af1aa8ddedf847ee7d6b2820858ef3e370ef7",
+    "candidateCommit": "bd4868cb4242f1825bb7491b4ccd8176b8456dae",
+    "sourceRootTree": "dc1606f46f869e72049a57f71417dd6e2119720c",
     "applicationTree": {
       "path": "src/js",
-      "gitTree": "937a0cb307e2abbcc06c2f591dbbd0104775460c",
-      "lastChangedCommit": "e8b4b3325dff6427b2c90bcf9ff8cefbeb53f2b2"
+      "gitTree": "66f492981ecd036a6ff2a78aef5fb32750b58010",
+      "lastChangedCommit": "bd4868cb4242f1825bb7491b4ccd8176b8456dae"
     },
     "bootstrap": {
       "path": "src/index.html",
-      "gitBlob": "c5d96cf5358ed0541e5318986105b58904d86b96",
-      "sha256": "bcc0550e98089ccb7f186563ed298b9c06b481c871a2d15ca623ef0f8cd08c7b",
-      "lastChangedCommit": "3616328d4abee136333a20b8e3ff5d4f470cf4af"
+      "gitBlob": "9139117dbf30f8a5ef07167b173474f27ca752c6",
+      "sha256": "4ce7361ab4b404cf85ce96501045a43b26df03fe449dd32b547ab6b3210404ca",
+      "lastChangedCommit": "bd4868cb4242f1825bb7491b4ccd8176b8456dae"
     },
     "inventoryDigest": {
       "algorithm": "sha256",
       "serialization": "Ascending POSIX path order; UTF-8 path + NUL + Git blob SHA-1 + LF for each selected path, including final LF; hash the concatenated bytes.",
-      "value": "4fc625ea1005ef7e54bffcea3728adeab572306b41bc1c1fc2905bf0feb01c58"
+      "value": "a3d7409bf08a2e487c581c26c2d937f3a1f99e72ff9532c6b4e6d2275f35a1c5"
     },
     "profiles": [
       {
         "path": "engineering/boundaries/profiles/app-js.profile.json",
-        "gitBlob": "830f6297f648043f40dc2987609b54ba83778b00",
-        "sha256": "7bb0391c68fc3f874354940ccf46dbe316d290c7b115f6885d99e5bde7bf87ae",
+        "gitBlob": "2583b20ebf8a21aec7e05a7893d1497870383fc8",
+        "sha256": "584f70278ca1fc6ec609f90030dc7a1d8dbaa2c75cc73f4143daec232fbcb28a",
         "moduleCount": 168,
         "basedOnCommit": "3616328d4abee136333a20b8e3ff5d4f470cf4af"
       },
