@@ -7950,7 +7950,7 @@ function onMouseUp(event){
     }
     // Animate's "Paint behind": the finished stroke slips under everything
     // already on the layer instead of stacking on top.
-    if(currentPath&&state.drawMode==='behind')userLayers[state.activeLayerIdx].insertChild(0,currentPath);
+    if(currentPath&&state.drawMode==='behind')userLayers[state.activeLayerIdx].insertChild(0,currentPath);else if(currentPath&&state.drawMode==='inside'&&typeof paintInsideClip==='function')currentPath=paintInsideClip(currentPath,userLayers[state.activeLayerIdx]);
     if(currentPath&&state.shadowMode)applyShadowBrushTag(currentPath);
     if(currentPath)tagOwner(currentPath);
     currentPath=null;stabQueue=[];saveActiveLayerFrame();updateUI();

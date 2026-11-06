@@ -1855,6 +1855,18 @@
       ]
     },
     {
+      "path": "src/js/paint-inside.js",
+      "moduleId": "app.paint.inside",
+      "executionClass": "document-classic",
+      "loadSites": [
+        {
+          "path": "src/index.html",
+          "line": 2504,
+          "scriptOrdinal": 166
+        }
+      ]
+    },
+    {
       "path": "src/js/palette-panel.js",
       "moduleId": "app.palette.panel",
       "executionClass": "document-classic",

@@ -10525,10 +10525,12 @@ wireIconGroup('p-cap-grp','setStrokeCap');
 wireIconGroup('p-join-grp','setStrokeJoin');
 wireIconGroup('p-paintorder-grp','setPaintOrder');
 wireIconGroup('p-fillbrushmode-grp','setFillBrushMode');
+wireIconGroup('p-drawmode-grp','setDrawMode');
 paintIconGroup('p-cap-grp',state.strokeCap);
 paintIconGroup('p-join-grp',state.strokeJoin);
 paintIconGroup('p-paintorder-grp',state.paintOrder);
 paintIconGroup('p-fillbrushmode-grp',state.fillBrushMode);
+paintIconGroup('p-drawmode-grp',state.drawMode);
 // Miter Limit only affects sharp corners under Join:Miter — disabled
 // (same convention as the old p-miterlimit-adjacent fields elsewhere)
 // otherwise, since it's a no-op for Round/Bevel joins.
@@ -10759,7 +10761,7 @@ function applyVectorBrushToSelection(preset){
 }
 window.SM.applyVectorBrushToSelection=applyVectorBrushToSelection;
 if(window.BrushPresetPicker)window.BrushPresetPicker.paintButton(state.brushPreset);
-document.getElementById('p-drawmode').addEventListener('change',function(){window.SM.setDrawMode(this.value);});
+// Draw mode (Front / Behind / Inside) is an icon group like Placement — wired with the others (wireIconGroup).
 document.getElementById('p-pmin').addEventListener('input',function(){window.SM.setPressureMin(this.value);});
 document.getElementById('p-pmax').addEventListener('input',function(){window.SM.setPressureMax(this.value);});
 var _pcurveSel=document.getElementById('p-pcurve');if(_pcurveSel)_pcurveSel.addEventListener('change',function(){window.SM.setPressureCurve(this.value);});

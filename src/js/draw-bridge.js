@@ -1045,7 +1045,7 @@
       try { trimStrokeEnds(path, userLayers[state.activeLayerIdx], state.trimStrokeEndsMax); }
       catch (err) { console.warn('[draw] trim stroke ends failed', err); }
     }
-    if (path) tagOwner(path);
+    if (path && state.drawMode === 'inside' && !isFillBrush() && typeof paintInsideClip === 'function') path = paintInsideClip(path, userLayers[state.activeLayerIdx]); if (path) tagOwner(path); // Paint inside (paint-inside.js): after Trim, before tagOwner/Labs/Symmetry
     // Labs prototype hook (docs/feature-scouting.md) — no-op unless
     // window.SMLabs is loaded AND the relevant prototype's own flag is on.
     // Deliberately a single guarded call at the one point every

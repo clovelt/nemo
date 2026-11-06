@@ -39,7 +39,7 @@
     maskMode: { dom: 'p-maskmode', kind: 'check' },
     maskModeType: { dom: 'p-maskmode-type', kind: 'select' },
     eraserSize: { dom: 'p-erasersize', kind: 'num' },
-    drawMode: { dom: 'p-drawmode', kind: 'select' },
+    drawMode: { dom: 'p-drawmode-grp', kind: 'icon' },
   };
 
   function load() {
@@ -117,6 +117,10 @@
       if (!el || f[k] === undefined) return;
       if (m.kind === 'check') el.checked = !!f[k];
       else if (m.kind === 'num') el.value = m.round ? Math.round(f[k]) : f[k];
+      else if (m.kind === 'icon') { // icon group (timeline.js paintIconGroup)
+        el.dataset.value = f[k];
+        el.querySelectorAll('.icon-btn').forEach(function (b) { b.classList.toggle('sel', b.dataset.value === f[k]); });
+      }
       else el.value = f[k];
     });
     if (window.updateUI) updateUI();

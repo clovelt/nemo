@@ -421,6 +421,18 @@
       ]
     },
     {
+      "id": "app.paint.inside",
+      "layer": "app-legacy",
+      "dir": "src/js",
+      "files": [
+        "paint-inside.js"
+      ],
+      "sizeProfile": "App JS unclassified (pre-R01)",
+      "publicApi": [
+        "paint-inside.js"
+      ]
+    },
+    {
       "id": "app.palette.panel",
       "layer": "app-legacy",
       "dir": "src/js",
