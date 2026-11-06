@@ -4286,7 +4286,7 @@ function renderTimeline(){
     // Motion left the waveform behind (nothing clears #audio-strip) while
     // the left rows vanished with the layer list rebuild: exactly "à droite
     // très bien mais pas à gauche". Same call, same order as the tail.
-    if(window.SMAudio)SMAudio.renderStrip();
+    if(window.SMAudio)SMAudio.renderStrip();if(window.SMMarkers)SMMarkers.render();if(window.SMBpm)SMBpm.render(); // markers/BPM were past this return too: in Motion they stayed at the old FC after a timeline zoom
     return;
   }
   if(window.SMCamera)SMCamera.renderGridRow(grid);
