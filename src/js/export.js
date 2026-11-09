@@ -1050,7 +1050,7 @@ function lottiePathLayer(name,runStrokes,runStart,runEnd,fps,camByFrame,bm,li){
     }
     shapeItems.push({ty:'tm',s:{a:1,k:tmS},e:{a:1,k:tmE},o:{a:1,k:tmO},m:1});
   }
-  shapeItems.push({ty:'tr',p:{a:0,k:[0,0]},a:{a:0,k:[0,0]},s:{a:0,k:[100,100]},r:{a:0,k:0},o:{a:0,k:100}});
+  shapeItems.push(typeof lottieMotionGroup==='function'?lottieMotionGroup(shapeItems,runStrokes,runStart,runEnd):{ty:'tr',p:{a:0,k:[0,0]},a:{a:0,k:[0,0]},s:{a:0,k:[100,100]},r:{a:0,k:0},o:{a:0,k:100}}); // tr (+ st width) from the baked Motion (lottie-motion.js)
   return{
     ddd:0,ty:4,nm:name,sr:1,
     ks:{o:{a:0,k:100},r:{a:0,k:0},p:{a:0,k:[0,0,0]},a:{a:0,k:[0,0,0]},s:{a:0,k:[100,100,100]}},
@@ -1123,7 +1123,7 @@ function lottieBuild(start,end){
       // Non-destructive combine groups (2026-07-29) — same post-process as
       // exportBuildFrame/buildSceneJson.
       if(window.SMGroup&&ld.groups)fStrokes=SMGroup.applyCombinesToStrokes(fStrokes,ld,li,f);
-      framesStrokes[f]=fStrokes;
+      framesStrokes[f]=typeof lottieBakeMotion==='function'?lottieBakeMotion(li,f,fStrokes):fStrokes; // Motion baked in (lottie-motion.js)
     }
 
     // figure out the max stroke-slot count and, for each slot, the
