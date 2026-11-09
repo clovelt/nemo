@@ -1225,6 +1225,18 @@
       ]
     },
     {
+      "id": "app.lottie.motion",
+      "layer": "app-legacy",
+      "dir": "src/js",
+      "files": [
+        "lottie-motion.js"
+      ],
+      "sizeProfile": "App JS unclassified (pre-R01)",
+      "publicApi": [
+        "lottie-motion.js"
+      ]
+    },
+    {
       "id": "app.markers",
       "layer": "app-legacy",
       "dir": "src/js",

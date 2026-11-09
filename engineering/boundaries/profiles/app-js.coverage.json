@@ -19,29 +19,29 @@
   },
   "provenance": {
     "repository": "https://github.com/mysteropodes/nemo",
-    "candidateCommit": "e8b4b3325dff6427b2c90bcf9ff8cefbeb53f2b2",
-    "sourceRootTree": "c66af1aa8ddedf847ee7d6b2820858ef3e370ef7",
+    "candidateCommit": "2d28f62464b38514ad4bae44d4d52428d9e4d120",
+    "sourceRootTree": "e6a9e41d440c05cf7646295d993bef73f7fcbd9f",
     "applicationTree": {
       "path": "src/js",
-      "gitTree": "937a0cb307e2abbcc06c2f591dbbd0104775460c",
-      "lastChangedCommit": "e8b4b3325dff6427b2c90bcf9ff8cefbeb53f2b2"
+      "gitTree": "c6aadb5dd3f6cd8970c9e7074c70c01df6558943",
+      "lastChangedCommit": "2d28f62464b38514ad4bae44d4d52428d9e4d120"
     },
     "bootstrap": {
       "path": "src/index.html",
-      "gitBlob": "c5d96cf5358ed0541e5318986105b58904d86b96",
-      "sha256": "bcc0550e98089ccb7f186563ed298b9c06b481c871a2d15ca623ef0f8cd08c7b",
-      "lastChangedCommit": "3616328d4abee136333a20b8e3ff5d4f470cf4af"
+      "gitBlob": "1a80d8800e6f52079a7640694e8834a43c79aabc",
+      "sha256": "f557950fb1e1dcbc0536c93443ba4288cc828a005ed40359475bafc16f3885f7",
+      "lastChangedCommit": "2d28f62464b38514ad4bae44d4d52428d9e4d120"
     },
     "inventoryDigest": {
       "algorithm": "sha256",
       "serialization": "Ascending POSIX path order; UTF-8 path + NUL + Git blob SHA-1 + LF for each selected path, including final LF; hash the concatenated bytes.",
-      "value": "4fc625ea1005ef7e54bffcea3728adeab572306b41bc1c1fc2905bf0feb01c58"
+      "value": "c9cbba5efa85afcc98e33b3cdac8d9bcc399a4004b232ac3cce9f0b8933fc1c2"
     },
     "profiles": [
       {
         "path": "engineering/boundaries/profiles/app-js.profile.json",
-        "gitBlob": "830f6297f648043f40dc2987609b54ba83778b00",
-        "sha256": "7bb0391c68fc3f874354940ccf46dbe316d290c7b115f6885d99e5bde7bf87ae",
+        "gitBlob": "051a6fcca983f824d7b757a13e9d80c90fc3e795",
+        "sha256": "909f0b27aa2b7aea505ddbb3c1223ef94c0bd7c251da02fcd695059f1253f3d7",
         "moduleCount": 168,
         "basedOnCommit": "3616328d4abee136333a20b8e3ff5d4f470cf4af"
       },
@@ -1719,6 +1719,18 @@
           "path": "src/index.html",
           "line": 2438,
           "scriptOrdinal": 105
+        }
+      ]
+    },
+    {
+      "path": "src/js/lottie-motion.js",
+      "moduleId": "app.lottie.motion",
+      "executionClass": "document-classic",
+      "loadSites": [
+        {
+          "path": "src/index.html",
+          "line": 2504,
+          "scriptOrdinal": 166
         }
       ]
     },
